@@ -14,6 +14,7 @@ const CharacterCounter = () => {
           }}
           rows={10}
           className="p-4 outline-none w-[30rem] text-xl"
+          placeholder="Please enter words"
         ></textarea>
       </div>
       <h6 className="text-secondary text-4xl">Character Count: {count}</h6>
